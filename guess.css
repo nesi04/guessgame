@@ -23,9 +23,10 @@ body{
 
 @media only screen and (max-width: 600px) {
     .p1 {
-        font-size: 11px; 
+        font-size: 20px; 
         border-radius: 15px; 
         padding: 0; 
+        text-align:centre;
     }
 
     .p1:hover {
