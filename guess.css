@@ -6,25 +6,34 @@
 body{
     background-color: rgb(7, 7, 100);
 }
-.p1{
+.p1 {
     font-size: 3em;
     color: rgb(7, 7, 100);
     background-color: aliceblue;
     border-radius: 25px;
     padding: 20px;
     font-family: "Arvo";
-    transition: 0.25s;
+    transition: padding 0.25s; 
     height: 50px;
-
 }
+
+.p1:hover {
+    padding: calc(20px * 1.2); 
+}
+
 @media only screen and (max-width: 600px) {
     .p1 {
         font-size: 11px; 
         border-radius: 15px; 
-        padding:0;
+        padding: 0; 
+    }
 
+    .p1:hover {
+        padding: calc(0px * 1.2); 
     }
 }
+
+
 .l1,.l2,.d4 p{
     color: aliceblue;
     font-family: "Happy Monkey";
