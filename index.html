@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game </title>
+    <link rel="stylesheet" href="guess.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Happy+Monkey&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <p class="p1">Welcome to Guessing Game</p>
+        <div class="range">
+            <label class="l1">Range : </label>
+            <input class="inp1" id="inp1" placeholder="Min">
+            <input class="inp2" id="inp2" placeholder="Max">
+            <button class="b1" id="b1">Enter</button>
+        </div>
+        <div class="guess">
+            <label class="l2">Enter your guess</label>
+            <input id="inp3" class="inp3">
+            <button id="b2">Enter</button>
+        </div>
+        <p class="res" id="p2"> No guess yet </p>
+        <div class="d4">
+        <p class="p3" id="p3">Attempts: </p>
+        <p class="p4" id="p4">0</p>
+        </div>
+    </div>
+  <script src="guess.js"></script>   
+</body>
+</html>
