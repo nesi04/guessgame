@@ -7,6 +7,9 @@ body{
     background-color: rgb(7, 7, 100);
 }
 .p1 {
+    display: flex;
+    align-items:center;
+    justify-content:center;
     font-size: 3em;
     color: rgb(7, 7, 100);
     background-color: aliceblue;
@@ -25,8 +28,9 @@ body{
     .p1 {
         font-size: 20px; 
         border-radius: 15px; 
-        padding: 0; 
-        text-align:centre;
+        padding: 2px; 
+        height:25px
+        
     }
 
     .p1:hover {
