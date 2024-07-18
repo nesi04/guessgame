@@ -19,13 +19,10 @@ body{
 }
 @media only screen and (max-width: 600px) {
     .p1 {
-        font-size: 2em; 
+        font-size: 1em; 
         border-radius: 15px; 
         padding: 10px; 
     }
-}
-.p1:hover{
-    padding: 120%;
 }
 .l1,.l2,.d4 p{
     color: aliceblue;
